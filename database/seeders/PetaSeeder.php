@@ -21,7 +21,12 @@ class PetaSeeder extends Seeder
         Peta::create([
             'title' => 'Peta',
             'background' => null,
-            'gambar' => 'images/Peta/Peta.jpg',
+            'gambar' => 'images/Peta/Peta1.jpg',
+        ]);
+        Peta::create([
+            'title' => 'Peta',
+            'background' => null,
+            'gambar' => 'images/Peta/Peta2.jpg',
         ]);
     }
 }
