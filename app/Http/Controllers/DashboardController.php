@@ -65,13 +65,11 @@ class DashboardController extends Controller
                 'background' => $dashboard->background,
             ]);
 
-            return redirect()
-                ->route('dashboard.index')
-                ->with('success', 'Section berhasil diperbarui');
+            return redirect()->route('dashboard.index')->with('success', 'Section berhasil diperbarui');
+            
         } catch (\Exception $e) {
-            return redirect()
-                ->back()
-                ->with('error', 'Terjadi kesalahan: ' . $e->getMessage());
+
+            return redirect()->back()->with('error', 'Terjadi kesalahan: ' . $e->getMessage());
         }
     }
 }
