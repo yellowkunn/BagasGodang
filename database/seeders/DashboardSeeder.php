@@ -33,7 +33,7 @@ class DashboardSeeder extends Seeder
         // Destinasi Wisata Section
         Dashboard::create([
             'section' => 'destinasi',
-            'title1' => 'Destinasi Wisata BAGAS GODANG',
+            'title1' => 'Destinasi Wisata Bagas Godang',
             'konten' => 'Objek Wisata Desa Dokan adalah Rumah Adat Mandailing, Hutan Mangrove Bagas Godang, dan Gunung Sorik Marapi',
         ]);
 
